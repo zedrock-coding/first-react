@@ -7,7 +7,7 @@ function HeroSection() {
     const heroTitleStyle = "text-xl font-bold mb-4 text-center text-gray-500 dark:text-gray-100 md:text-2xl lg:text-3xl";
     const heroDescriptionStyle = "text-center text-gray-600 dark:text-gray-300 md:text-lg lg:text-xl";
 
-    const heroSection = (<section className='flex flex-no-wrap align-item-center justify-content-center'>
+    const heroSection = (<section className='flex flex-no-wrap align-item-center justify-content-center bg-gray-100 dark:bg-gray-800 py-6 mt-8 rounded-lg shadow-md'>
         <div className='max-w-4xl px-4 py-8'>
             <h1 className={heroTitleStyle}>{heroTitle}</h1>
             <p className={heroDescriptionStyle}>{heroDescription}</p>
