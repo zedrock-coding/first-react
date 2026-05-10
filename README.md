@@ -1,16 +1,41 @@
-# React + Vite
+# First React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic, modern React application built with Vite and styled with Tailwind CSS v4.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-## React Compiler
+## 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dynamic Components:** Includes interactive elements like `DynamicDiv` with custom hooks for mouse tracking (`useMousePosition`) and responsive canvas sizing (`useCanvasSize`).
+- **SPA Routing Ready:** Pre-configured `vercel.json` ensures seamless Single Page Application (SPA) routing without 404 errors on reload.
+- **Modern Tooling:** Uses ESLint for code quality and Vite for lightning-fast HMR.
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v20+ recommended)
+
+### Installation
+
+1. Clone the repository and navigate into the project folder:
+   ```bash
+   cd first-react
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🌍 Deployment
+
+This project is optimized for deployment on **Vercel**. 
+The included `vercel.json` file handles all necessary route rewrites out of the box to support React Router. Simply import the repository into your Vercel dashboard and deploy!
